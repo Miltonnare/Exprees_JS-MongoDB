@@ -6,10 +6,10 @@ A simple Node.js + Express + MongoDB API for managing books in a bookstore. It s
 
 #
 Bookstore/
-├── db.js               # MongoDB connection and utility functions
-├── books.js            # Book-related database operations
-├── app.js              # Express server and route handlers
-├── package.json        
+├── db.js # MongoDB connection and utility functions
+├── books.js # Book-related database operations
+├── app.js # Express server and route handlers
+├── package.json
 └── README.md
 ##
 
