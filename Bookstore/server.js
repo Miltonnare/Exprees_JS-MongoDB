@@ -22,6 +22,7 @@ app.get('/books/getAllBooks', async (req, res) => {
 
 app.post('/books/insertBook', async (req, res) => {
     try {
+        console.log("Request Body",req.body);
         const result = await insertBook(req.body);
         res.status(201).json({ message: "Book inserted", result });
     } catch (err) {
@@ -39,7 +40,7 @@ app.get('/books/getBooksByAuthor', async (req, res) => {
     }
 });
 
-app.get('/books/inStock', async (req, res) => {
+app.get('/books/getInStocks', async (req, res) => {
     try {
         const result = await getInStocks();
         res.json(result);

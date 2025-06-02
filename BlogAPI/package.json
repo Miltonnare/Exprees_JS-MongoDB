@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "blogapi",
+  "version": "1.0.0",
+  "main": "Blogs.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
