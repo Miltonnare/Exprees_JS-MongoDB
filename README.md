@@ -29,9 +29,9 @@ Calculate average price per genre
 
 Clone the repo
 
-git clone https://github.com/your-username/bookstore-api.git
+git clone (https://github.com/Miltonnare/Exprees_JS-MongoDB.git)
 
-cd 
+cd Exprees_JS-MongoDB
 
 Install dependencies
 
