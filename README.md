@@ -7,12 +7,12 @@ A simple Node.js + Express + MongoDB API for managing books in a bookstore. It s
 ##
 ```
 Bookstore/
-├── db.js # MongoDB connection and utility functions
-├── books.js # Book-related database operations
-├── app.js # Express server and route handlers
+├── db.js ### MongoDB connection and utility functions
+├── books.js ### Book-related database operations
+├── app.js ### Express server and route handlers
 ├── package.json
 └── README.md
-##
+
 ```
 
 ## 🚀**Features**
@@ -31,7 +31,7 @@ Calculate average price per genre
 
 Clone the repo
 
-git clone (https://github.com/Miltonnare/Exprees_JS-MongoDB.git)
+*git clone (https://github.com/Miltonnare/Exprees_JS-MongoDB.git)*
 
 cd Exprees_JS-MongoDB
 
@@ -40,7 +40,7 @@ Install dependencies
 
 npm install
 
-Start MongoDB (ensure it's running locally on mongodb://localhost:27017)
+*Start MongoDB (ensure it's running locally on mongodb://localhost:27017)*
 
 Run the server
 
@@ -54,7 +54,7 @@ nodemon app.js
 
 Server will be running at:
 
-http://localhost:3000
+*http://localhost:3000*
 
 ## 🧪 **Testing the API with Postman**
 
@@ -87,7 +87,7 @@ author=James Clear&genre=Self-help
 
 Example:
 
-GET http://localhost:3000/books/getBooksByAuthor?author=James%20Clear&genre=Self-help
+*GET http://localhost:3000/books/getBooksByAuthor?author=James%20Clear&genre=Self-help*
 
 4. Get In-Stock Books
 
@@ -105,4 +105,4 @@ MongoDB database name: Bookstore
 
 Collection used: Books
 
-You must ensure MongoDB is running and accessible at mongodb://localhost:27017.
+*You must ensure MongoDB is running and accessible at mongodb://localhost:27017.*
