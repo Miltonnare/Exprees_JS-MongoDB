@@ -1,8 +1,8 @@
-## 📚 Bookstore API
+## 📚 **Bookstore API**
 
 A simple Node.js + Express + MongoDB API for managing books in a bookstore. It supports inserting, retrieving, filtering, and aggregating book data.
 
-📦 Project Structure
+📦 **Project Structure**
 
 ##
 Bookstore/
@@ -13,7 +13,7 @@ Bookstore/
 └── README.md
 ##
 
-## 🚀 Features
+## 🚀**Features**
 
 Add a new book
 
@@ -25,7 +25,7 @@ List books that are in stock
 
 Calculate average price per genre
 
-## ⚙️ Setup Instructions
+## ⚙️ **Setup Instructions**
 
 Clone the repo
 
@@ -54,7 +54,7 @@ Server will be running at:
 
 http://localhost:3000
 
-## 🧪 Testing the API with Postman
+## 🧪 **Testing the API with Postman**
 
 1. Insert a Book
    
@@ -97,7 +97,7 @@ Endpoint: GET /books/inStock
 Endpoint: GET /books/averagePriceByGenre
 
 
-## 📌 Notes
+## 📌 **Notes**
 
 MongoDB database name: Bookstore
 
