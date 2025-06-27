@@ -35,7 +35,7 @@ Clone the repo
 
 cd Exprees_JS-MongoDB
 
-Install dependencies
+**Install dependencies**
 
 
 npm install
@@ -75,15 +75,15 @@ Body (JSON):
 
 2. Get All Books
 
-Endpoint: GET /books/getAllBooks
+Endpoint: *GET /books/getAllBooks*
 
 3. Get Books by Author and Genre
 
-Endpoint: GET /books/getBooksByAuthor
+Endpoint: *GET /books/getBooksByAuthor*
 
 Query Params:
 
-author=James Clear&genre=Self-help
+**author=James Clear&genre=Self-help**
 
 Example:
 
@@ -91,12 +91,12 @@ Example:
 
 4. Get In-Stock Books
 
-Endpoint: GET /books/inStock
+Endpoint:*GET /books/inStock*
 
 
 5. Get Average Price by Genre
    
-Endpoint: GET /books/averagePriceByGenre
+Endpoint: *GET /books/averagePriceByGenre*
 
 
 ## 📌 **Notes**
